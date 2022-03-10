@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 0vh;
+    
+    background-position: center;
+    background-size: cover;
+
+}
+
+.row{
+display: flex;
+height: 88%;
+align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: rgb(67, 70, 69);
+    font-size: 100px;
+}
+p{
+    color: rgb(7, 7, 7);
+    font-size: 11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: rgb(95, 92, 92);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url('../../assets/stormTrooper.jpg');
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url('../../assets/education.jpg');
+}
+.card2{
+    background-image: url("../../assets/agriculture.jpg");
+}
+.card3{
+    background-image: url("../../assets/physics.jpg");
+}
+.card4{
+    background-image: url("../../assets/medicaldental.jpg");
+}
+.card5{
+    background-image: url("../../assets/architecture.jpg");
+}
+.card6{
+    background-image: url("../../assets/compscience.jpg");
+}
+.card7{
+    background-image: url("../../assets/Enginetech.jpg");
+}
+.card8{
+    background-image: url("../../assets/social science.jpg");
+}
+.card:hover{
+    transform: translateY(-10px);
+}
